@@ -30,7 +30,7 @@ int main()
 			cout<< "the numbers are almost equal "<<endl;
 		}
 	}*/
-	cout<<"Please enter one number."<<endl;
+	cout<<"Please enter one number and unit."<<endl;
 	double number1;
 	double Max=0;
 	double Min=0;
@@ -63,7 +63,7 @@ int main()
 		}
 		Sum=Sum+number1;
 		numbers.push_back(number1);
-
+		cout<< "The numbers sum is "<<Sum<<"m"<<endl;
 		if (Min_value)
 		{
 			Min=number1;
@@ -72,12 +72,12 @@ int main()
 		if (number1>Max)
 		{
 			Max=number1;
-			//cout<<"the largest so far: "<<Max<<endl;
+			cout<<"the largest so far: "<<Max<<endl;
 		}
 		else if (number1<Min)
 		{
 			Min=number1;
-			//cout<<"the smallest so far: "<<Min<<endl;
+			cout<<"the smallest so far: "<<Min<<endl;
 		}
 	}
 	sort(numbers);
@@ -85,6 +85,6 @@ int main()
 		cout<<Item<<"m"<<endl;
 	cout<<"The smallest number in meter: "<<Min<<"m"<<endl;
 	cout <<"The largest number in meter: "<<Max<<"m"<<endl;
-	cout<< "The numbers sum is "<<Sum<<"m"<<endl;
+	
 	return 0;
 }
