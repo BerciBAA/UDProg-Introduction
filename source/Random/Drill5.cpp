@@ -84,13 +84,30 @@ vector <int>v(5);
 for (int i=0; i<=v.size(); ++i) ; 
 cout <<"Success!\n";
 * */
-
+/*
 int i=0; int j = 9; 
-while (i<10) ++j;
+while (i<10) ++i;
  if (j<i) cout <<"Success!\n";
-
-
-
+*/
+/*
+int x = 2; 
+double d = 5/(x); 
+if (d!=2*x+0.5) cout << "Success!\n";
+*/
+/*
+vector<string> s = {"Success!\n"}; 
+for (int i=0; i<=s.size()-1; ++i) 
+cout<< s[i];
+*/
+/*
+int i=0; 
+int j=0;
+while (i>10) ++j; 
+if (j>=i) cout << "Success!\n";
+* */
+int x = 4; 
+double d = 5/(x–2); 
+if (d==(2*x+0.5)) cout <<"Success!\n";
 
 
 
