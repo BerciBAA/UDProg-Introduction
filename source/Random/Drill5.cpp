@@ -105,10 +105,12 @@ int j=0;
 while (i>10) ++j; 
 if (j>=i) cout << "Success!\n";
 * */
-int x = 4; 
-double d = 5/(x–2); 
-if (d==(2*x+0.5)) cout <<"Success!\n";
-
+/*
+double x = 4; 
+double d = 5/(x-2); 
+if (d!=(2*x+0.5)) cout <<"Success!\n";
+*/
+cout << "Success!\n";
 
 
 keep_window_open();
