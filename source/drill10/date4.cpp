@@ -143,7 +143,7 @@ void operator++(Date& d)
 	d.add_day(1);
 }
 
-void const f()
+void f()
 {
 	Date today(1978,Month::jun,25);
 	cout << today;

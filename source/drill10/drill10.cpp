@@ -121,7 +121,6 @@ try
 	differencia(original_point,original_point2);
 	return 0;
 }
-
 catch(exception& e)
 {
 	cout << e.what() << endl;
